@@ -1,0 +1,227 @@
+      
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+    <style>
+        :where([class^="ri-"])::before { content: "\f3c2"; }
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#2D3436',
+                        secondary: '#636E72'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '4px',
+                        DEFAULT: '8px',
+                        'md': '12px',
+                        'lg': '16px',
+                        'xl': '20px',
+                        '2xl': '24px',
+                        '3xl': '32px',
+                        'full': '9999px',
+                        'button': '8px'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white min-h-screen">
+    <div class="max-w-5xl mx-auto px-6 py-12">
+        <header class="flex items-start justify-between mb-16">
+            <div class="flex-1">
+                <h1 class="text-4xl font-bold text-primary mb-3">Vijay Kilari</h1>
+                <h2 class="text-xl text-secondary mb-6">Cloud Security Engineer</h2>
+                <p class="text-gray-600 max-w-2xl leading-relaxed">
+                    Cybersecurity specialist with over 2 years in penetration testing, cloud security, and incident response across finance, healthcare, and e-commerce. Skilled in AWS, Burp Suite, and Python automation. Prevented breaches by fixing S3 misconfigurations and SQL injection flaws, ensuring PCI DSS compliance. Proactive learner dedicated to enhancing security and mitigating risks.
+                </p>
+            </div>
+            <div class="w-48 h-48 rounded-full overflow-hidden ml-8 flex-shrink-0">
+                <img src="https://public.readdy.ai/ai/img_res/ba827e98fc53a7e7434abe737f5899c1.jpg" 
+                     class="w-full h-full object-cover" alt="Profile Photo">
+            </div>
+        </header>
+
+        <section class="flex items-center gap-8 mb-16 flex-wrap">
+            <a href="mailto:vijaycloudse@email.com" class="flex items-center gap-2 text-secondary hover:text-primary transition-colors cursor-pointer">
+                <div class="w-5 h-5 flex items-center justify-center">
+                    <i class="ri-mail-line"></i>
+                </div>
+                <span>vijaycloudse@email.com</span>
+            </a>
+            <a href="tel:+1234567890" class="flex items-center gap-2 text-secondary hover:text-primary transition-colors cursor-pointer">
+                <div class="w-5 h-5 flex items-center justify-center">
+                    <i class="ri-phone-line"></i>
+                </div>
+                <span>+1 (732) 666-8663</span>
+            </a>
+            <div class="flex items-center gap-2 text-secondary">
+                <div class="w-5 h-5 flex items-center justify-center">
+                    <i class="ri-map-pin-line"></i>
+                </div>
+                <span>New Jersey, USA</span>
+            </div>
+            <a href="https://www.linkedin.com/in/vijay-sai-1902/" target="_blank" class="flex items-center gap-2 text-secondary hover:text-primary transition-colors cursor-pointer">
+                <div class="w-5 h-5 flex items-center justify-center">
+                    <i class="ri-linkedin-line"></i>
+                </div>
+                <span>in/vijaykilari</span>
+            </a>
+        </section>
+
+  <section class="mb-16">
+            <h3 class="text-2xl font-semibold text-primary mb-8">Skills & Expertise</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="p-6 bg-gray-50 rounded-lg">
+                    <div class="w-10 h-10 flex items-center justify-center text-primary mb-4">
+                        <i class="ri-shield-line ri-2x"></i>
+                    </div>
+                    <h4 class="font-semibold mb-3">Cloud Security Expertise</h4>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>AWS Security</li>
+                        <li>Threat Detection & Mitigation</li>
+                        <li>Incident Response</li>
+                        <li>Security Practices (MFA, Access Control, Data Encryption, Network Security)</li>
+                        <li>Compliance (GDPR, HIPAA, PCI DSS, SOC 2)</li>
+                        <li>Incident Management (Planning, Forensic Analysis, Root Cause Analysis)</li>
+                    </ul>
+                </div>
+
+                <div class="p-6 bg-gray-50 rounded-lg">
+                    <div class="w-10 h-10 flex items-center justify-center text-primary mb-4">
+                        <i class="ri-cloud-line ri-2x"></i>
+                    </div>
+                    <h4 class="font-semibold mb-3">AWS Services Proficiency</h4>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>IAM</li>
+                        <li>GuardDuty</li>
+                        <li>WAF</li>
+                        <li>CloudWatch</li>
+                        <li>CloudTrail</li>
+                        <li>Lambda</li>
+                        <li>Shield</li>
+                        <li>Config</li>
+                        <li>KMS</li>
+                        <li>S3</li>
+                        <li>VPC</li>
+                        <li>Security Groups</li>
+                        <li>AWS Firewall Manager</li>
+                    </ul>
+                </div>
+
+                <div class="p-6 bg-gray-50 rounded-lg">
+                    <div class="w-10 h-10 flex items-center justify-center text-primary mb-4">
+                        <i class="ri-tools-line ri-2x"></i>
+                    </div>
+                    <h4 class="font-semibold mb-3">Technical Skills</h4>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Automation (Lambda, IaC, DevSecOps)</li>
+                        <li>Monitoring & Logging (CloudTrail, CloudWatch, Config, X-Ray)</li>
+                        <li>Cloud Platforms (AWS, Azure, GCP)</li>
+                        <li>Database Management (RDS, DynamoDB, MySQL, PostgreSQL)</li>
+                        <li>DevOps & CI/CD Tools (Jenkins, Terraform, Docker, Kubernetes, Ansible)</li>
+                        <li>Version Control (Git, GitHub)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h3 class="text-2xl font-semibold text-primary mb-8">Experience</h3>
+            <div class="space-y-8">
+                <div class="flex gap-6">
+                    <div class="w-16 h-16 bg-gray-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <div class="w-8 h-8 flex items-center justify-center text-primary">
+                            <i class="ri-building-line ri-2x"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold text-primary">AWS Cloud Security Engineer</h4>
+                        <p class="text-secondary mb-2">NBC Universal • Jan 2023 - Jan 2025</p>
+                        <ul class="list-disc list-inside text-gray-600 space-y-2">
+                            <li>Implemented robust cloud access boundaries leveraging AWS Security Hub, CloudWatch, and AWS WAF to monitor and protect cloud assets.</li>
+                            <li>Collaborated with product and engineering teams to design and configure secure access management using IAM roles, policies, and firewalls, ensuring authorized cloud access.</li>
+                            <li>Participated in incident response efforts by analyzing CloudTrail and CloudWatch logs to identify threats, apply fixes, and mitigate future risks.</li>
+                            <li>Conducted comprehensive risk assessments and security audits to identify vulnerabilities and apply improvements to fortify cloud security.</li>
+                            <li>Deployed AWS GuardDuty alongside senior engineers to enable continuous monitoring for malicious or unauthorized activity.</li>
+                            <li>Automated security responses by implementing Lambda functions in reaction to GuardDuty alerts, enhancing incident resolution times.</li>
+                            <li>Refined AWS WAF rules to elevate web application security in response to emerging vulnerabilities and attack vectors.</li>
+                            <li>Coordinated the setup of AWS Shield configurations to mitigate DDoS attacks, optimizing protection levels based on assessed risks.</li>
+                            <li>Integrated GuardDuty, Shield, and WAF protections into automated deployment pipelines in collaboration with DevOps teams for seamless security management.</li>
+                            <li>Supported data protection initiatives by implementing encryption protocols and securing storage solutions with AWS KMS and S3 to meet regulatory standards.</li>
+                            <li>Monitored security alerts and compliance reports via AWS Security Hub, ensuring alignment with evolving security standards.</li>
+                            <li>Developed and maintained security documentation and reporting tools to track security posture and support audit readiness.</li>
+                            <li>Assisted in establishing secure virtual networks using Amazon VPC and security groups to ensure safe communication across cloud environments.</li>
+                            <li>Configured security groups to restrict access solely to trusted ports, bolstering overall network security in AWS.</li>
+                            <li>Enforced secure access controls through the implementation of Multi-Factor Authentication (MFA).</li>
+                            <li>Collaborated cross-functionally to identify security threats and assess risks by leveraging CloudTrail and CloudWatch monitoring tools.</li>
+                            <li>Integrated additional security features into AWS systems to augment current protections in line with evolving threat landscapes.</li>
+                            <li>Managed user access policies to ensure precise access levels for cloud resources across AWS environments.</li>
+                            <li>Augmented incident response efforts by troubleshooting and mitigating security issues during regular and off-hours operations.</li>
+                            <li>Utilized AWS Config and CloudTrail for continuous monitoring, auditing, and ensuring compliance with security best practices.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-16">
+            <h3 class="text-2xl font-semibold text-primary mb-8">Education</h3>
+            <div class="space-y-8">
+                <div class="flex gap-6">
+                    <div class="w-16 h-16 bg-gray-50 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <div class="w-8 h-8 flex items-center justify-center text-primary">
+                            <i class="ri-graduation-cap-line ri-2x"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-semibold text-primary">Masters in Cyber Security</h4>
+                        <p class="text-secondary mb-2">University of Maryland Baltimore County • Aug 2021 - Dec 2022</p>
+                        <p class="text-gray-600">GPA: 3.8</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="flex items-center justify-between pt-8 border-t border-gray-200">
+            <p class="text-secondary">© 2025 Vijay Kilari. All rights reserved.</p>
+            <div class="flex gap-4">
+                <a href="/resume.pdf" download class="px-4 py-2 bg-primary text-white rounded-button hover:bg-opacity-90 transition-colors cursor-pointer whitespace-nowrap flex items-center gap-2">
+                    <div class="w-5 h-5 flex items-center justify-center">
+                        <i class="ri-download-line"></i>
+                    </div>
+                    Download Resume
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const skillBars = document.querySelectorAll('.skill-item');
+            skillBars.forEach(bar => {
+                const progressBar = bar.querySelector('.bg-primary');
+                const percentage = progressBar.style.width;
+                progressBar.style.width = '0';
+                setTimeout(() => {
+                    progressBar.style.width = percentage;
+                    progressBar.style.transition = 'width 1s ease-in-out';
+                }, 200);
+            });
+        });
+    </script>
+</body>
+</html>
